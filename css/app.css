@@ -1,0 +1,8 @@
+.termind td, .terminal th {
+	border: 1px solid #aaa;
+    padding: 3px 6px;
+}
+
+.terminal th {
+	font-weight: bold;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "crypto-cli",
+  "version": "0.1.0",
+  "description": "A cli interface for all your cryptos!",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": "https://github.com/jcubic/electron-terminal",
+  "keywords": [
+    "Electron",
+    "terminal",
+    "jquery",
+    "demo"
+  ],
+  "author": {
+    "name": "Vikas Singhal",
+    "email": "vikas@expresstech.io",
+    "url": "https://crypto-cli.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "~1.7.8",
+    "electron-reload": "^1.2.2",
+    "jquery.terminal": "^1.11.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ccxt": "^1.12.170",
+    "config": "^1.30.0",
+    "electron-store": "^1.3.0",
+    "minimist": "^1.2.0",
+    "threads": "^0.10.1"
+  }
+}
